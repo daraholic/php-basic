@@ -23,10 +23,18 @@ while(count($nums)<6){
     $i++;
 }
 
-    echo "<pre>";    
-    print_r($nums);
-    echo "</pre>";  
+    // echo "<pre>";    
+    // print_r($nums);
+    // echo "</pre>";  
     echo "迴圈次數".$i;
+    echo "<hr>";
+
+
+    foreach($nums as $num){
+        echo "<div class='ball'>".$num ."</div>";
+    }
+    echo "<br>";
+    echo "<div class='ball'>".rand(1,8)."</div>";
 
 ?>
 
