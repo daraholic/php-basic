@@ -30,11 +30,10 @@
         echo $year;
         $month=floor(floor(floor($gap)%365)/30);
         echo $month;
-        $days=floor(floor($gap)%365)%30;
+        $days=floor(floor($gap)%365%30);
         echo $days;
         echo "<br>";
         echo "距離我的生日還有".$year."年".$month."個月".$days."天";
-
     ?>
 
 </body>
