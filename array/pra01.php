@@ -43,7 +43,7 @@ $subject = array_keys($name['judy']);
 echo "<pre>";
 print_r($subject);
 echo "</pre>";
-echo "judy的數學成績為:" . $name['judy'][2];
+echo "judy的數學成績為:" . $name['judy']['數學']."分";
 
 ?>
 
