@@ -30,7 +30,7 @@ while(count($nums)<6){
     // echo "<pre>";    
     // print_r($nums);
     // echo "</pre>";  
-    echo "迴圈次數".$i;
+    // echo "迴圈次數".$i;
     echo "<hr>";
 
     // 印出上面while跑的數字(陣列)
